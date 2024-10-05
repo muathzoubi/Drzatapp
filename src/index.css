@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo+Play:wght@200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  background: url('https://play.tailwindcss.com/img/beams.jpg') no-repeat;
+  background-size: cover;
+}
+* {
+  font-family: 'Almarai', sans-serif;
+}
+input {
+  padding: 7px 10px;
+  border-radius: 4px;
+}
+.bg-app {
+  background: url(./appcv.png) no-repeat !important;
+  background-size: contain !important;
+  background-position-x: left;
+  background-position-y: top;
+}
